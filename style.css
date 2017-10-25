@@ -1,0 +1,111 @@
+body {
+	background-image: url("../images/regal.png");
+}
+
+header {
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	color: #777777;
+}
+
+h1 {
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+
+#name {
+    background-color: #4aaaa5;
+    margin: 0 490px 0 100px;
+    padding: 20px;
+    color: #fdfefe;
+    text-align: center;
+    display: inline-block;
+}
+
+#nav {
+	margin: 0 100px 0 0;
+	padding: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	text-align: center;
+	font-size: 16px;
+	display: inline-block;
+	word-spacing: 10px;
+}
+
+.navlinks {
+	color: #777777;
+	text-decoration: none;
+}
+
+
+#content {
+	width: 650px;
+	padding: 20px;
+	margin: 30px 20px 30px 100px;
+	color: #777777;
+	background-color: #ffffff;
+	border: 2px solid #dddddd;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 20px;
+	display: inline-block;
+}
+
+#bodyheader {
+	color: #4aaaa5;
+	border-bottom: 2px solid #cccccc;
+}
+
+#myimg {
+	float: left;
+	margin: 20px 20px 20px 0;
+}
+
+#connect {
+	width: 270px;
+	height: 170px;
+	padding: 20px;
+	margin: 30px 100px 30px 20px;
+	color: #4aaaa5;
+	background-color: #ffffff;
+	border: 2px solid #dddddd;
+	font-family: 'Georgia', Times, 'Times New Roman', serif;
+	display: inline-block;
+	vertical-align: top;
+}
+
+
+#navlist {
+    position: relative;
+}
+
+#navlist li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: absolute;
+    top: 0;
+    display: inline;
+}
+
+#navlist li, #navlist a {
+    width: 64px;
+    height: 64px;
+    display: block;
+}
+
+#linkedin {
+    left: 0px;
+    width: 46px;
+    background: url('../images/linkedin.png') 0 0;
+}
+
+#github {
+    left: 63px;
+    width: 43px;
+    background: url('../images/github.png') -47px 0;
+}
+
+#next {
+    left: 129px;
+    width: 43px;
+    background: url('img_navsprites.gif') -91px 0;
+}
