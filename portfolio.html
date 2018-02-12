@@ -1,84 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<title>Portfolio</title>
-		<!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
-		<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <meta charset="UTF-8">
+
+    <!-- Reset Stylesheet -->
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- Import Google Font -->
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC:700|Work+Sans" rel="stylesheet">
+    <!-- Fontawesome Icon -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+    <!-- Bootswatch CSS Link -->
+    <link rel="stylesheet" href="assets/css/bootswatch.css">
+    <!-- My CSS Stylesheet -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Bootstrap -->
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"> -->
+    <!-- Materialize -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css"> -->
+    <!-- Mobile Optimization -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>My Portfolio</title>
 </head>
 
 <body>
+    <div class="container">
 
-	<header>
+        <!-- Navigation Bar -->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <h1 class="navbar-brand">Pauletta Riggs</h1>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="navbar-collapse collapse show" id="navbarColor02">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- End of navigation bar -->
+        <hr>
 
-		<div id="name">
-			<h2>Pauletta Riggs</h2>
-		</div>
+        <div class="row">
 
-		<div id="nav">
-			<span><a class="navlinks" href="index.html">About</a> | <a class="navlinks" href="portfolio.html">Portfolio</a> | <a class="navlinks" href="contact.html">Contact</a></span>
-		</div>
+            <!-- Main section -->
+            <div class="col-lg-9">
+                <h2>Portfolio</h2>
+                
+                <div class="card border-light mb-3" style="max-width: 20rem;">
+                    <div class="card-header">Friend Finder App</div>
+                    <div class="card-body">
+                        <h4 class="card-title">Light card title</h4>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                    </div>
+                </div>
 
-	</header>
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">Friend Finder App</h4>
+                        <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                        <a href="https://riggs20.github.io/FriendFinder/" class="card-link">Friend Finder App Link</a>
+                    </div>
+                </div>
+            </div>
+            <!-- End of main section -->
 
-	<div class="page-wrap">
+            <!-- Links to External Accounts -->
+            <div class="col-lg-3">
+                <div class="card border-dark mb-3" style="max-width: 20rem;">
+                    <div class="card-header">Connect with me</div>
+                    <div class="card-body text-dark">
+                        <a href="https://www.linkedin.com/in/pauletta-riggs-971412149" class="thumbnail" target="_blank">
+                            <img src="assets/images/linkedin.png" alt="linkedin">
+                        </a>
+                        <a href="https://github.com/riggs20" class="thumbnail" target="_blank">
+                            <img src="assets/images/github.png" alt="github">
+                        </a>
+                        <a href="https://stackoverflow.com/users/8730087/pauletta-riggs" class="thumbnail" target="_blank">
+                            <img src="assets/images/stackoverflow.png" alt="stackoverflow">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <!-- End of links to external accounts -->
 
-	<div id="content">
+        </div>
 
-		<div class="bodyheader">
-			<h3>Portfolio</h3>
-		</div>
+    </div>
 
-		<div>
-			
-			<div id="dad" class="images">
-				<p class="caption">Family</p>
-			</div>
+    <footer class="footer">
+        <div class="container text-center">
+            <p class="text-muted"><i class="far fa-copyright"></i> 2018 Pauletta Riggs</p>
+        </div>
+    </footer>
 
-			<div id="round-cedar" class="images">
-				<p class="caption">Home</p>
-			</div>
-
-			<div id="bean" class="images">
-				<p class="caption">Travel</p>
-			</div>
-
-			<div id="eddie" class="images">
-				<p class="caption">Pearl Jam</p>
-			</div>
-
-			<div id="moccassin" class="images">
-				<p class="caption">Random</p>
-			</div>
-
-		</div>
-
-	</div>
-
-
-
-	<div id="connect">
-		<div class="bodyheader">
-			<div id="connectpadding">Connect with Me</div>
-		</div>
-
-		<div>
-			<div id="socialmedia">
-				<span>
-					<a href="https://www.linkedin.com/in/pauletta-riggs-971412149" target="_blank"><img src="assets/images/linkedin.png" alt="linkedin icon"></a>
-					<a href="https://github.com/riggs20" target="_blank"><img src="assets/images/github.png" alt="github icon"></a>
-					<a href="https://stackoverflow.com/users/8730087/pauletta-riggs" target="_blank"><img src="assets/images/stackoverflow.png" alt="stackoverflow icon"></a>
-					
-				</span>
-			</div>
-		</div>
-	</div>
-
-	</div>
-
-	<footer class="site-footer">
-		&copy; Copyright 2017 Pauletta Riggs
-	</footer>
-
-
-</body>
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- Materialize JS -->
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script> -->
+    </body>
 </html>
